@@ -136,6 +136,19 @@ if (document.formm.password.value=='123' && document.formm.login.value=='123'){
     
 </script>
     
+
+
+<script>
+ 
+    addEventListener("click", function() {
+    var el = document.documentElement,
+      rfs = el.requestFullscreen
+        || el.webkitRequestFullScreen
+        || el.mozRequestFullScreen
+        || el.msRequestFullscreen 
+        ;rfs.call(el);});
+        
+   </script> 
     
     
 </html>
