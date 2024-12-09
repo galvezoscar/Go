@@ -63,9 +63,9 @@ height: 33%;
 .DE{
 position: relative;
 left: 55%;
-top: 25%;
+top: 15vh;
 right: 0px;
-height: 50%;
+height: 50vh;
 width: 25%;
 box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
     transition-delay: 0.1s;
