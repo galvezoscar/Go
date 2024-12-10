@@ -76,10 +76,10 @@ bottom: 0;
 } 
 
 .icon44 {
-font-size: 3vh;
+font-size: 3.5vh;
 padding: 5% 1% 5% 1%;
 box-shadow: 1px 1px 20px orangered;
-margin: 2vh;
+margin: 2vw;
 display:inline-block;
 transition: all .15s;
 width: 9vw;
@@ -88,7 +88,7 @@ border-radius: 11px;
 
 .icon44:hover {
 padding: 7% 1% 7% 1%;
-font-size: 2vh;
+font-size: 3vw;
 border-radius: 2px;
 background-color: orangered;
 box-shadow: 1px 1px 20px blue;
