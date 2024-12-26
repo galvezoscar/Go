@@ -9,7 +9,7 @@ background-color: black;
 background-image: url(1.jpg);
     
 }
-/*
+
 
 .inicio .inicio1{
 position: absolute;
@@ -20,7 +20,7 @@ transition: all 10ms ease-in-out;
 transform: translate(-0%,-0%) scale(1);
     
 }
-*/
+
 .inicio{
 position: absolute;
 left: 0px;
@@ -65,7 +65,7 @@ position: relative;
 left: 35%;
 top: 15vh;
 right: 0px;
-height: 50vh;
+height: 60vh;
 width: 25%;
 box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
     transition-delay: 0.1s;
@@ -77,6 +77,8 @@ box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
 transition-delay: 0.1s;
 box-shadow: 40px 40px 10px black, 0 0 40px #a945c7, 0 0 80px #a945c7;
 background-color: rebeccapurple;
+        background-image: url(inicio%20artel.gif);
+
 }
 
 
@@ -103,6 +105,7 @@ background-size: cover;
 height: 100%;
 width: 100%;
 background-image: url(5.jpg);
+    
 }
 
 
