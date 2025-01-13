@@ -12,6 +12,24 @@ background-color: black;
 
 }
 
+    
+.fullvid {
+position: absolute;
+width: 100%;
+height: 100%; 
+}
+.popup .fullvid {
+position:fixed;
+transform:scale(0);
+z-index:2;
+text-align:center;
+}
+.popup.active .fullvid {
+transition:all 20ms ease-in-out;
+transform:translate(-0%,-0%) scale(01);
+background: black;
+}
+
 
 
 .g{
@@ -20,10 +38,10 @@ text-transform: uppercase;
 color: wheat;
 cursor: pointer;
 font-size: 1.2vw;
-top:  1%;
+top:  0%;
 left:  0%;
 width: 100%;
-height: 9vh;
+height: 13%;
 background: black;
 } 
  
@@ -365,27 +383,10 @@ background-color: black;
 	}
 
 
+
 }
 
 
-
-    
-.fullvid {
-position: absolute;
-width: 100%;
-height: 100%; 
-}
-.popup .fullvid {
-position:fixed;
-transform:scale(0);
-z-index:2;
-text-align:center;
-}
-.popup.active .fullvid {
-transition:all 20ms ease-in-out;
-transform:translate(-0%,-0%) scale(01);
-background: black;
-}
 
     
   
