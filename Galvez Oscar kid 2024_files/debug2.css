@@ -37,11 +37,11 @@ position: absolute;
 text-transform: uppercase;
 color: wheat;
 cursor: pointer;
-font-size: 1.2vw;
+font-size: 1.2w;
 top:  0%;
 left:  0%;
 width: 100%;
-height: 13%;
+height: 39px;
 background-color: blur(10px);
 text-align: center;
 box-shadow: 0px 0px 5px #222;
@@ -90,8 +90,9 @@ object-fit: fill;
     position: relative;
     top: -0%;
     width: 10%;
-    margin-left: 90%;
-height: 15%;
+    margin-left: 91%;
+height: 9%;
+    
 } 
 
 
@@ -204,12 +205,23 @@ top: 20%;
 .logo{
 position: absolute;
 height: 30%;
-left: 5%;
-top: 3%;
-width: 25%;
-height: 15%; 
+left: 4%;
+top: 0%;
+width: 14%;
+height: 10%; 
     
 }
+
+
+.powr-hit-counter{
+position: absolute;
+right: 30%;
+top: 6%;
+width: 10%;
+height: 3%; 
+}
+
+
 .go{
 position: absolute;
 text-transform: uppercase;
@@ -388,6 +400,11 @@ background-color: black;
 	}
 
 
+.g{
+background-color: red;
+height: 2vw;
+} 
+ 
 
 }
 
